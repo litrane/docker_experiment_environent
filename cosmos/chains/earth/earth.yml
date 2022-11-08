@@ -1,0 +1,25 @@
+# earth.yml
+accounts:
+  - name: alice
+    coins: ["1000000token", "10000000000000000stake"]
+  - name: hhh
+    coins: ["50000000token", "10000000000000000stake"]
+    address: earth1hunfhxjvvgxu68lnl2xqqs29qdff3zpelvdhe2
+  - name: relayer
+    coins: ["50000000token", "10000000000000000stake"]
+    address: earth1d56m0c5apj7684swadla0wqha6w58hrr6ecwcc
+validator:
+  name: alice
+  staked: "100000000000stake"
+  #name: hhh
+  #staked: "100000stake"
+#faucet:
+#   name: bob
+#   coins: ["5token", "100000stake"]
+genesis:
+  chain_id: "earth"
+init:
+  home: "$HOME/.earth"
+#"earth1r5a29rrsujn5megw24p7mhnw08rrjce43y93xu" with mnemonic: "pioneer car lift tray twice abuse donor pioneer tunnel proof trick join prison borrow fetch alien aware all session quantum dial subway over coconut"
+#0198a61d9f637fc86051c3ddf2d5ff07b3e05abe6f8e3c749c2b4d5a505b6c9f earth1hunfhxjvvgxu68lnl2xqqs29qdff3zpelvdhe2  judge quick noble twelve excite panda sport milk harbor ranch travel diamond true patrol slam physical poem fox dove gorilla nurse rich sick because
+#2f1578ea18416b957824f8a568bd0221d24739353499cb1c9232e82c0ace123a earth1d56m0c5apj7684swadla0wqha6w58hrr6ecwcc junior sea neck angle plunge interest spare upgrade three ticket lab kit ranch must junior sample abuse youth myth royal sand dismiss noodle pledge

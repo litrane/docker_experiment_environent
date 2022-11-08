@@ -1,0 +1,33 @@
+# mars.yml
+accounts:
+  - name: alice
+    coins: ["1000token", "1000000000stake"]
+  - name: bob1
+    coins: ["5000000token", "100000000stake"]
+    address: mars1fz4yc8fcm0jl8kvxx3r6nrpc6hpppy4sca79fy
+  - name: hhh
+    coins: ["50000000token", "10000000000000000stake"]
+    address: mars1e822pvf7v92x46u2ylrgvcac0yjjljxawe6uep
+  - name: relayer
+    coins: ["50000000token", "10000000000000000stake"]
+    address: mars1tgqtk8yxf0z7gjexdt584wep4lc6sv24dgfpxq
+validator:
+  name: alice
+  staked: "100000000stake"
+# faucet:
+#   host: ":4501"
+#   name: bob
+#   coins: ["5token", "100000stake"]
+# host:
+#   rpc: ":26659"
+#   p2p: ":26658"
+#   prof: ":6061"
+#   grpc: ":9092"
+#   grpc-web: ":9093"
+#   api: ":1318"
+genesis:
+  chain_id: "mars"
+init:
+  home: "$HOME/.mars"
+#f010e39558d0c51dd26843e6c2da46aa0c93a793b319a777280b19ac094068d4 mars1e822pvf7v92x46u2ylrgvcac0yjjljxawe6uep then damp quiz swing robot woman donkey feature honey chase inner elevator fuel eight come sort know paper web urban isolate fringe patch surge
+#0282faab50bae6c191afa80fbca728392d85224df3a794ef22982f807a1b630e mars1tgqtk8yxf0z7gjexdt584wep4lc6sv24dgfpxq that put hundred merge twin amused woman cram crawl grow gasp catch hire earth whip usage elite marriage dust survey conduct whisper embrace physical

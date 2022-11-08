@@ -1,0 +1,12 @@
+
+- name: node1
+  type: local
+  address: earth1ajdeargl7px6jshpz5cd4g22avsxg0wmlmrfx7
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A4JOBkxVF3XmhExXH5zGeIhv8QucB14O4Xq4WzEhdlUP"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+mobile wrestle robot dwarf fix town salt unique cricket fade system accuse spot before spot rapid bottom valid ankle food employ core tackle jaguar

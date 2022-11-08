@@ -1,0 +1,89 @@
+version: '3'
+
+services:
+ validator0:
+   container_name: validator0
+   image: cosmoscontracts/juno:latest
+   ports:
+   - "26656-26657:26656-26657"
+   - "1317:1317"
+   volumes:
+   - ./workspace:/workspace
+   command: /bin/sh -c 'junod start --home /workspace/test-chain-id/validator0'
+   networks:
+     localnet:
+       ipv4_address: 192.168.10.0
+
+ validator1:
+   container_name: validator1
+   image: cosmoscontracts/juno:latest
+   ports:
+   - "26658-26659:26656-26657"
+   - "1318:1317"
+   volumes:
+   - ./workspace:/workspace
+   command: /bin/sh -c 'junod start --home /workspace/test-chain-id/validator1'
+   networks:
+     localnet:
+       ipv4_address: 192.168.10.1
+
+ validator2:
+   container_name: validator2
+   image: cosmoscontracts/juno:latest
+   ports:
+   - "26660-26661:26656-26657"
+   - "1319:1317"
+   volumes:
+   - ./workspace:/workspace
+   command: /bin/sh -c 'junod start --home /workspace/test-chain-id/validator2'
+   networks:
+     localnet:
+       ipv4_address: 192.168.10.2
+
+ validator3:
+   container_name: validator3
+   image: cosmoscontracts/juno:latest
+   ports:
+   - "26662-26663:26656-26657"
+   - "1320:1317"
+   volumes:
+   - ./workspace:/workspace
+   command: /bin/sh -c 'junod start --home /workspace/test-chain-id/validator3'
+   networks:
+     localnet:
+       ipv4_address: 192.168.10.3
+
+ node0:
+   container_name: node0
+   image: cosmoscontracts/juno:latest
+   ports:
+   - "26664-26665:26656-26657"
+   - "1321:1317"
+   volumes:
+   - ./workspace:/workspace
+   command: /bin/sh -c 'junod start --home /workspace/test-chain-id/node0'
+   networks:
+     localnet:
+       ipv4_address: 192.168.10.4
+
+ node1:
+   container_name: node1
+   image: cosmoscontracts/juno:latest
+   ports:
+   - "26666-26667:26656-26657"
+   - "1322:1317"
+   volumes:
+   - ./workspace:/workspace
+   command: /bin/sh -c 'junod start --home /workspace/test-chain-id/node1'
+   networks:
+     localnet:
+       ipv4_address: 192.168.10.5
+
+networks:
+  localnet:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      -
+        subnet: 192.168.10.0/16

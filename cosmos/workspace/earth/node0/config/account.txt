@@ -1,0 +1,12 @@
+
+- name: node0
+  type: local
+  address: earth1y566fpfa5a43fq9n5sf9w68muf9lszk3vz4kuq
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A3LQwKAvKNgDog03g5Ihvl9/Q2isAoHCUJenY17+EzjZ"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+success try ecology meadow sphere security foam tired broken truly apple animal talent orbit december thunder merit output popular list off tip faith put

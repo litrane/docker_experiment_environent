@@ -1,0 +1,12 @@
+
+- name: validator1
+  type: local
+  address: earth1ytkm0s94qhtgd3jmfnlpu6vtz9qrau8zd44ehy
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A0RAm9hEr45tiIXBH/8mT2FXZ/Xd1gZka7MJq6TooMl6"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+sausage fiscal fringe fall urge bitter derive craft moon vapor logic devote domain approve trumpet swift tower suggest antique pole biology fruit fiction suspect

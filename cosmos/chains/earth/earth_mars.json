@@ -1,0 +1,17 @@
+{
+    "dst": {
+        "chain-id": "earth",
+        "port-id": "transfer",
+        "order": "unordered",
+        "version": "ics20-1"
+    },
+    "src": {
+        "chain-id": "mars",
+        "port-id": "transfer",
+        "order": "unordered",
+        "version": "ics20-1"
+    },
+    "strategy": {
+        "type": "naive"
+    }
+}

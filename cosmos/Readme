@@ -1,0 +1,4 @@
+git clone https://github.com/litrane/cosmos_experiment_file.git
+nohup ./earthd start  --home="./workspace/earth/validator0"  > output 2>&1 &
+git clean -xfd
+https://github.com/jetsung/golang-install

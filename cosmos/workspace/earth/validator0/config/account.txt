@@ -1,0 +1,12 @@
+
+- name: validator0
+  type: local
+  address: earth1d38mey6ukxkszckr7lnkra60ku3npvq486tth9
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AjHMNYsevO1lHPOVuFPxfmRG30yNkNvySae2ilTKzDwj"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+eternal renew will flush current solar unfair educate age unable luxury fall demise crater project cloud earn nasty width erosion credit weasel more illness

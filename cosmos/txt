@@ -1,0 +1,5 @@
+ssh -p 22 pzl97@apt137.apt.emulab.net
+ ssh -p 22 pzl97@apt156.apt.emulab.net
+ ssh -p 22 pzl97@apt153.apt.emulab.net
+ ssh -p 22 pzl97@apt145.apt.emulab.net
+和昨晚上第一次的机器一样，不过这次是ubuntu20，真机实验就是很多问题，包括可控和不可控的。。唉

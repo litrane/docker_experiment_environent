@@ -1,0 +1,49 @@
+version: '3'
+services:
+  validator5:
+    container_name: validator4
+    image: sshd:latest
+    ports:
+      - "2201:22"
+    networks:
+      localnet:
+        ipv4_address: 192.168.10.5
+  validator6:
+    container_name: validator5
+    image: sshd:latest
+    ports:
+      - "2202:22"
+    networks:
+      localnet:
+        ipv4_address: 192.168.10.6
+  validator7:
+    container_name: validator6
+    image: sshd:latest
+    ports:
+      - "2203:22"
+    networks:
+      localnet:
+        ipv4_address: 192.168.10.7
+  validator8:
+    container_name: validator7
+    image: sshd:latest
+    ports:
+      - "2204:22"
+    networks:
+      localnet:
+        ipv4_address: 192.168.10.8
+  validator8:
+    container_name: validator7
+    image: sshd:latest
+    ports:
+      - "2204:22"
+    networks:
+      localnet:
+        ipv4_address: 192.168.10.9
+# networks:
+#   localnet:
+#     driver: bridge
+#     ipam:
+#       driver: default
+#       config:
+#         - subnet: 192.168.10.0/16

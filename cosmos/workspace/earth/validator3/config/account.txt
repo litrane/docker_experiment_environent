@@ -1,0 +1,12 @@
+
+- name: validator3
+  type: local
+  address: earth19e6hpt5fa04pqtk96wsgy3r6r70rqsl0alf69k
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AjLxXkxjbWK514cJmppO7XUirchthIBadlneIZ83L4Jb"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+always buyer age only enough meat portion also shed spawn uncover attend energy ice remember ship mad answer strike face curious motion wild bamboo

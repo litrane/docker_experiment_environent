@@ -1,0 +1,12 @@
+
+- name: validator2
+  type: local
+  address: earth13yheu7nrevsccqvtgay406zest2uahpt3nrh5w
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AtFjYVjK8kSAaCjNIlCicLIuigS8bF9fS7t26Ge/JPgz"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+course draft wage lyrics oblige monkey web system card affair vacant large blush trial dance crumble middle identify armor nephew put leave camera clip
