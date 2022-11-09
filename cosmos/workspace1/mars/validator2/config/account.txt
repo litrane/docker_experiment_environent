@@ -1,0 +1,12 @@
+
+- name: validator2
+  type: local
+  address: mars1zpfzpx69w2ek28q09mec93ppzvh8gq72xjpmdg
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"App24OtFDWxAunF5nrZgtOhPKgHqw9xwPtATZsXLCHzx"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+stamp cheap inject armor raven tired style sunny enter evolve nasty leg auction adult someone cook plate dragon pupil perfect few soda avocado symptom

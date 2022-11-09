@@ -1,0 +1,12 @@
+
+- name: node1
+  type: local
+  address: mars146cqc4sf4zscfwrd2c9z6mvcz5kmf9kh5mupfj
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AtDePNezWdueZtxeLXYk79XlgburtbsVvTQRDn9NeXtJ"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+ketchup reflect charge foam banana inquiry green region order marriage what magic scheme axis topic boil skin elephant sadness private digital stable govern purity

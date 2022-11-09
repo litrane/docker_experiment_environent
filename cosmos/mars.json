@@ -1,0 +1,17 @@
+{
+    "type": "cosmos",
+    "value": {
+        "key": "testkey",
+        "chain-id": "mars",
+        "rpc-addr": "http://192.168.10.5:26657",
+        "grpc-addr": "",
+        "account-prefix": "mars",
+        "keyring-backend": "test",
+        "gas-adjustment": 1.5,
+        "gas-prices": "0.025coin",
+        "debug": true,
+        "timeout": "10s",
+        "output-format": "json",
+        "sign-mode": "direct"
+    }
+}

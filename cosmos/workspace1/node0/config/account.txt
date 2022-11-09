@@ -1,0 +1,12 @@
+
+- name: node0
+  type: local
+  address: earth1rj290jex98nwr5zecfmq5dlzw43eymz6yy9pht
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A7onQKvXsoek3AYyK1ciysKoLLsnsXoCcjyBAQjXUVE1"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+eight goddess calm short core obey menu quick dose engine sniff hello curve perfect note tortoise pool end waste curious panic sad symbol good

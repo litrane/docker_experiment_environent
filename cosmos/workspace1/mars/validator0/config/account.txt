@@ -1,0 +1,12 @@
+
+- name: validator0
+  type: local
+  address: mars1udhm59kq9zdzrjsnuz7uva4w6jtzxufvtvgw70
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AnfvrVhdObcKG5gcuG6+otwAgyQdEx1XfHEcVjJ2aS8s"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+agent lion craft tooth armed switch left second ugly loyal exit supply boy drop dress together invest also know cross stone suggest voice laptop

@@ -1,15 +1,15 @@
 #!/bin/sh
 
-BINARY=earthd
+BINARY=marsd
 BINARY_IMAGE=cosmoscontracts/juno:latest
-CHAINID=earth
+CHAINID=mars
 CHAINDIR=./workspace	
 
 VALIDATOR='validator'
 NODE='node'
 
 KBT="--keyring-backend=test"
-host_string=("192.168.10.1" "192.168.10.2" "192.168.10.3" "192.168.10.4")
+host_string=("192.168.10.5" "192.168.10.6" "192.168.10.7" "192.168.10.8")
 echo "Creating $BINARY instance with home=$CHAINDIR chain-id=$CHAINID..."	
 
 # Build genesis file incl account for passed address	
@@ -48,6 +48,8 @@ add_genesis_account() {
     echo "add_genesis_account $1"
     home=$(get_home $1)
     $BINARY --home $home add-genesis-account $($BINARY --home $home keys $KBT show $1 -a) $MAXCOINS  $KBT &>/dev/null	
+    $BINARY --home $home0 add-genesis-account mars1vd39966gj72wzsvvltcspzvdu7a545gkgfrvem $MAXCOINS  $KBT &>/dev/null	
+    $BINARY --home $home0 add-genesis-account mars146cqc4sf4zscfwrd2c9z6mvcz5kmf9kh5mupfj $MAXCOINS  $KBT &>/dev/null
 }
 
 # Create gentx file
@@ -62,6 +64,8 @@ add_genesis_account_to_node0() {
     home=$(get_home $1)
     home0=$(get_home ${VALIDATOR}0)
     $BINARY --home $home0 add-genesis-account $($BINARY --home $home keys $KBT show $1 -a) $MAXCOINS  $KBT &>/dev/null	
+    $BINARY --home $home0 add-genesis-account mars1vd39966gj72wzsvvltcspzvdu7a545gkgfrvem $MAXCOINS  $KBT &>/dev/null	
+    $BINARY --home $home0 add-genesis-account mars146cqc4sf4zscfwrd2c9z6mvcz5kmf9kh5mupfj $MAXCOINS  $KBT &>/dev/null
 }
 
 copy_all_gentx_and_add_genesis_account_to_node0(){

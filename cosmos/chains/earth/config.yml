@@ -15,7 +15,7 @@ client:
 faucet:
   name: earthling
   coins: ["5ecoin", "100000stake"]
-host:
+host:mars1udhm59kq9zdzrjsnuz7uva4w6jtzxufvtvgw70
   rpc: ":26659"
   p2p: ":26658"
   prof: ":6061"

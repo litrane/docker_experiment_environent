@@ -1,0 +1,12 @@
+
+- name: validator1
+  type: local
+  address: mars1cyyw59df6tx5l6eql80vc56k2w8sqnn39qk46x
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AuU3lkT2QE4cA0QhFgCbksTKniENEBOTK20nPtLogCJ1"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+garbage dentist predict wall aspect summer series action action try dizzy crucial since thank engage ethics unfair fence usage own rib oyster attend since

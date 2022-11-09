@@ -1,0 +1,12 @@
+
+- name: validator0
+  type: local
+  address: mars16f9xlavaw6g8n0dvjv836l44qzmz5t7qy45322
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A59AaBeOYFFRHJWu24o+B2O7wVCrH6lL6/jBP3oe/8MU"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+income okay age solve confirm sudden rookie install radar rail outdoor chunk scan stuff burst code scrap egg ladder unique era aspect west adapt

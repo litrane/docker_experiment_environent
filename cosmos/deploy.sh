@@ -1,7 +1,7 @@
 #!/bin/bash
 
 host_string=("-p 2201 root@127.0.0.1" "-p 2202 root@127.0.0.1" "-p 2203 root@127.0.0.1" "-p 2204 root@127.0.0.1")
-name="deploy-cosmos"
+name="deploy-cosmos1"
 
 if [ "$1" == "connect" ]; then 
   tmux new-session -s $name -d

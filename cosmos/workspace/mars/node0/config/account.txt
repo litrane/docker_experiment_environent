@@ -1,0 +1,12 @@
+
+- name: node0
+  type: local
+  address: mars1ute76yjj2gknnaf82yceqdlnmk4e93cgdd4tsc
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AsMB4WwZqsircbTzkMl0bCxpL2Z9F2oFLttVqR32bBbw"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+private trash rather ocean gap turtle shell flame lamp almost glow review toward lobster praise minimum tomato country pumpkin hawk art subway kiss arena

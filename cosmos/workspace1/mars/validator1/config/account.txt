@@ -1,0 +1,12 @@
+
+- name: validator1
+  type: local
+  address: mars13gauwwgs00tyf2djmaefuj9h63rn5j2p5fvyd3
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A3pv5Sga2OixuPxtiMJkWwq9SrkhRyzRFAJjOa4N3ZKE"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+during camp cancel curtain spot nice guilt key edit similar mesh broken claw trip bachelor vague puppy endless call endorse spring warfare tiny problem

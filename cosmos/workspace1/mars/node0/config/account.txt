@@ -1,0 +1,12 @@
+
+- name: node0
+  type: local
+  address: mars1vd39966gj72wzsvvltcspzvdu7a545gkgfrvem
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"ArCCWnj4r140JiM7HyR7gT5OU5Bb27GsqkGQlG95rIrc"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+rubber peasant enable evoke brick present detect valid harvest pet aunt upon sad ski april tunnel picnic stadium doctor divert sure nothing endorse phrase

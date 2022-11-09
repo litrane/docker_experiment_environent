@@ -1,0 +1,12 @@
+
+- name: validator3
+  type: local
+  address: mars1vkskzjn724uedlcxpxr2p2y0sgyx40f6mkmu5a
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A9sYu/gohQMSVOcWkBIfXulQv+gaegK4ytd5QbBCYqEZ"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+purchase swim enable recycle awful sport slight dust second rural repair material rhythm area speak whisper bamboo glance limb film awake enact famous extra

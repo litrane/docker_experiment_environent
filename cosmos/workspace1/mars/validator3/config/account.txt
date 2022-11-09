@@ -1,0 +1,12 @@
+
+- name: validator3
+  type: local
+  address: mars1d2raen3ldte5n55aleny2pzndktmsaz5d55k4s
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"ArdtMXQem5D8yMRhHiXgX19pisM8c1OmrtUs37yRnwz2"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+repeat fall hotel margin judge injury soap suit crack engage online garden south excuse energy fossil olympic arm piano cement appear grow valid sibling

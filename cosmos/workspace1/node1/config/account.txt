@@ -1,0 +1,12 @@
+
+- name: node1
+  type: local
+  address: earth1v7vay6uyg3n47ypzegtdd8v2kv7glvqtym4dr7
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A13HWAbEM87d781WVSo9OHtr6XD75kuzaGu/VZIljmyp"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+manage similar virus canal primary uncle pair birth advice bring pilot forest vital hill table dial jaguar resource elite abandon awake rack actual kangaroo
