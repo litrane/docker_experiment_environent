@@ -7,7 +7,7 @@ if [ "$1" == "connect" ]; then
   tmux new-session -s $name -d
 fi 
 
-for i in $( seq 0 ${#host_string[@]} )
+for i in $( seq 0 `expr ${#host_string[@]} - 1 ` )
 
 do
   tmux_name="$name:$i"
