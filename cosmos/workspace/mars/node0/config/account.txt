@@ -1,12 +1,12 @@
 
 - name: node0
   type: local
-  address: mars1ute76yjj2gknnaf82yceqdlnmk4e93cgdd4tsc
-  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AsMB4WwZqsircbTzkMl0bCxpL2Z9F2oFLttVqR32bBbw"}'
+  address: mars17d8z2slkc8xra73zg7ms785sp4wyvryndtx2ru
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AjcaILxRcPSXoQOnLC20ifpUHntVVJvApirdHktu6lu7"}'
   mnemonic: ""
 
 
 **Important** write this mnemonic phrase in a safe place.
 It is the only way to recover your account if you ever forget your password.
 
-private trash rather ocean gap turtle shell flame lamp almost glow review toward lobster praise minimum tomato country pumpkin hawk art subway kiss arena
+off umbrella stuff tuition kitten climb region reduce then ketchup thunder close garbage timber dragon reopen frog pony inject hello pen pony betray main

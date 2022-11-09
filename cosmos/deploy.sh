@@ -1,6 +1,6 @@
 #!/bin/bash
 
-host_string=("-p 2201 root@127.0.0.1" "-p 2202 root@127.0.0.1" "-p 2203 root@127.0.0.1" "-p 2204 root@127.0.0.1")
+host_string=("-p 22  pzl97@apt103.apt.emulab.net" "-p 22 pzl97@apt117.apt.emulab.net" "-p 22 pzl97@apt106.apt.emulab.net" "-p 22 pzl97@apt096.apt.emulab.net")
 name="deploy-cosmos1"
 
 if [ "$1" == "connect" ]; then 
@@ -16,7 +16,7 @@ do
   tmux new-window -n "$i" -t "$name" -d
   tmux send -t $tmux_name "ssh ${host_string[i]}" Enter
 elif [ "$1" == "init" ]; then
-  tmux send -t $tmux_name "git clone https://github.com/litrane/cosmos_experiment_file.git" Enter
+  tmux send -t $tmux_name "git clone -b cloud  https://github.com/litrane/docker_experiment_environent.git" Enter
   tmux send -t $tmux_name "cd cosmos_experiment_file" Enter
   tmux send -t $tmux_name "nohup ./earthd start --home=./workspace/earth/validator${i} > output 2>&1 & " Enter
 elif [ "$1" == "start" ]; then

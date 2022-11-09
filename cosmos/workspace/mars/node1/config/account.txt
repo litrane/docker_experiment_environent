@@ -1,12 +1,12 @@
 
 - name: node1
   type: local
-  address: mars1ajnpw6z8lxku2qjexyur47yfaq3h5slsrfm05x
-  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A4UH5ZFn0wZXkddZQtAxJPbgOsXoqAbn+/R7wXZlMPfu"}'
+  address: mars1m4gl602wujq4ysm6j7ucar62zuhm9eaxp6vx2w
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A6MOP78J+oQSDTt/14svEEuaOS4RViFhtuIyuP6IWNQK"}'
   mnemonic: ""
 
 
 **Important** write this mnemonic phrase in a safe place.
 It is the only way to recover your account if you ever forget your password.
 
-wife pyramid mule meadow engine sentence web bargain chat gadget make bottom virus three poverty wire ensure write sugar pattern defy slam mercy average
+elephant sense wild welcome deal harbor slice twist live goose hub cherry crop gauge edit have deal sword near impulse now knife odor torch

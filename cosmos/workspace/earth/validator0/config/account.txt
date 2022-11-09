@@ -1,12 +1,12 @@
 
 - name: validator0
   type: local
-  address: earth1kwrtvsa6yx42xe746y33y8x9azlqa6kgzzcvz3
-  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"Ap9/eG/dgIydlxlF3JpBoY6SgW66ccuEXBob1RzoZ/5j"}'
+  address: earth109gvnyl6jk6ejtppgzekg652q73euk3xcpuasu
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AmuJ0WXceKdyBMK21npq7Zi+8tGG1DyCXSxHmc8JL1MX"}'
   mnemonic: ""
 
 
 **Important** write this mnemonic phrase in a safe place.
 It is the only way to recover your account if you ever forget your password.
 
-give cricket cute response inner raccoon spirit join soda affair belt toy arrive essence first oven abuse lunch doll trophy spider hospital law whale
+release call alcohol simple spot frown write poet report parent tennis battle shove fly frog bomb chapter bike ring assist critic thought eight swap
