@@ -1,6 +1,6 @@
 #!/bin/bash
 
-host_string=(" pzl97@apt097.apt.emulab.net" " pzl97@apt105.apt.emulab.net" " pzl97@apt101.apt.emulab.net" " pzl97@apt113.apt.emulab.net")
+host_string=(" pzl97@apt176.apt.emulab.net" " pzl97@apt185.apt.emulab.net" " pzl97@apt177.apt.emulab.net" " pzl97@apt179.apt.emulab.net")
 name="deploy-cosmos2"
 
 if [ "$1" == "connect" ]; then 
@@ -20,8 +20,8 @@ elif [ "$1" == "init" ]; then
   tmux send -t $tmux_name "cd docker_experiment_environent" Enter
   #tmux send -t $tmux_name "nohup ./marsd start --home=./workspace/mars/validator${i} > output 2>&1 & " Enter
 elif [ "$1" == "start" ]; then
-  tmux send -t $tmux_name "cd cosmos" Enter
-  tmux send -t $tmux_name "./marsd start --home=./workspace/mars/validator${i} " Enter
+  tmux send -t $tmux_name "cd ~/docker_experiment_environent/cosmos" Enter
+  tmux send -t $tmux_name "nohup ./marsd start --home=./workspace/mars/validator${i}  > ./output.log 2>&1 & " Enter
 elif [ "$1" == "update" ]; then
   #tmux send -t $tmux_name "cd theta_experiment_file" Enter
   tmux send -t $tmux_name "git clean -xfd" Enter
