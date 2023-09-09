@@ -7,14 +7,14 @@ services:
       - "2210:22"
     networks:
       testnet:
-        ipv4_address: 192.168.10.9
+        ipv4_address: 10.10.1.9
     cap_add:
       - NET_ADMIN
 
 networks:
   testnet:
     external:
-      name: localnet
+      name: thetanet
 
 # networks:
 #   testnet:
