@@ -185,7 +185,7 @@ external_address = ""
 seeds = ""
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "6ecd1e1d76bac65cfe845972ac9e7a6de715f191@192.168.10.5:26656,2dd2c63ea5af3d8e1f0d486ceb7f4e8d4c5689d8@192.168.10.7:26656,082a87a4ecc21f72a12233d8bb96090a2b5c1ddd@192.168.10.8:26656"
+persistent_peers = "c556ad1af3327c70b7e21e27f97c5dd7cfca143b@10.10.1.5:26656,d70aefef29426d6375ea14b24089bbf36ba06625@10.10.1.7:26656,869dafdcffb7f9e2af7e1ef109ae8710a8616869@10.10.1.8:26656"
 
 # UPNP port forwarding
 upnp = false
@@ -329,7 +329,7 @@ version = "v0"
 wal_file = "data/cs.wal/wal"
 
 # How long we wait for a proposal block before prevoting nil
-timeout_propose = "1s"
+timeout_propose = "2s"
 # How much timeout_propose increases with each round
 timeout_propose_delta = "500ms"
 # How long we wait after receiving +2/3 prevotes for “anything” (ie. not a single block or nil)

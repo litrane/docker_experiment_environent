@@ -9,7 +9,7 @@ services:
       - "9090:9090"
     networks:
       testnet:
-        ipv4_address: 192.168.10.1
+        ipv4_address: 10.10.1.1
   validator1:
     container_name: validator1
     image: sshd:latest
@@ -17,7 +17,7 @@ services:
       - "2202:22"
     networks:
       testnet:
-        ipv4_address: 192.168.10.2
+        ipv4_address: 10.10.1.2
   validator2:
     container_name: validator2
     image: sshd:latest
@@ -25,7 +25,7 @@ services:
       - "2203:22"
     networks:
       testnet:
-        ipv4_address: 192.168.10.3
+        ipv4_address: 10.10.1.3
   validator3:
     container_name: validator3
     image: sshd:latest
@@ -33,12 +33,12 @@ services:
       - "2204:22"
     networks:
       testnet:
-        ipv4_address: 192.168.10.4
+        ipv4_address: 10.10.1.4
 
 networks:
   testnet:
     external:
-      name: localnet
+      name: thetanet
 
 # networks:
 #   testnet:

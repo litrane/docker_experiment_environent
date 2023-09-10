@@ -1,11 +1,11 @@
 {
-  "address": "51F6BF0CA739CF352EA6592CDDB4397F16B406EB",
+  "address": "AE5B6AB29EE4EE9E462C7A5F03DDAE568F098295",
   "pub_key": {
     "type": "tendermint/PubKeyEd25519",
-    "value": "BUoVwIc0dEgvx/4TyvfU3wTokIONGqKKHqplp5Wm3Lw="
+    "value": "of4MQGwLiQ0uOR2ULBdL9ixtFRAYvWB3i7l1rr9eHNc="
   },
   "priv_key": {
     "type": "tendermint/PrivKeyEd25519",
-    "value": "Xfzd5a5VMEOoMljhpkLXJsZNoeqFo1InfKPqH0lmUzAFShXAhzR0SC/H/hPK99TfBOiQg40aoooeqmWnlabcvA=="
+    "value": "ZZcwTeF+7EXh0VNq9IZfQT08lTzZ3lIbRF8J9k/urBGh/gxAbAuJDS45HZQsF0v2LG0VEBi9YHeLuXWuv14c1w=="
   }
 }
